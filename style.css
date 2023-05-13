@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Shadows Into Light', sans-serif;
+}
+
+
+header{
+    background-color: #345074;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    color: white;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 15px;    
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size:1.15rem;
+    color: white;
+    font-weight: 400;
+}
+.nav-link:hover{
+    font-weight: bold;
+}
+
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 6rem;
+    margin-right: 20px;
+}
+
+.titulo-sobre{
+    margin-top: 30px;
+    color: #4771a3;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sub-sobre{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #2d4463;
+}
+
+.foto-sobre{
+    margin-left: 20px;
+    width: 550px;
+    height: auto;
+    box-shadow: 5px 5px 5px rgb(29, 29, 29);
+}
+
+.portifolio{
+    text-align:  center;
+}
+
+.img-port{
+    width: 700px;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px rgb(29, 29, 29);
+}
+
+
+.titulo-port{
+    background-color: #4771a3;
+    padding: 1.5rem 6rem;
+    color: white;
+}
+
+.portifolio-fotos{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+}
+.img-portifolio{
+    margin-top: 20px;
+    width: 300px;
+    height: auto;
+    box-shadow: 5px 5px 5px rgb(29, 29, 29);
+}
+
+.formulario{
+    background-color: #4771a3;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 210px;
+    padding: 17px 0px 15px 0px;
+}
+
+.titulo-form{
+    margin-top: 60px;
+    color: white;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.label-form{
+    color: white;
+    font-size: 20px;
+}
+
+.input-form{
+    height: 28px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    padding: 0px 0px 0px 5px;
+}
+
+.botao-form{
+    border-radius: 10px;
+    color: #2d4463; 
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 60px;
+    border: none;
+    align-items: center;
+     
+}
+
+.rodape{
+    margin-top: 20px;
+    padding: 1.3rem 6rem;
+    background-color: #345074;
+    
+}
+.txt-rodape{
+    text-align: center;
+    color:  white;
+    font-weight: bold;
+    
+}
+
+.img-extra{
+    text-align: center;
+}
+
+.foto-extra{
+    width: 700px;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px rgb(29, 29, 29);
+}
